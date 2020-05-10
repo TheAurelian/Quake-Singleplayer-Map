@@ -4,83 +4,81 @@ Output file: Invasion.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         1713 faces
-          287 brushes
-           18 entities
-           17 unique texnames
-          265 texinfo
+         2108 faces
+          350 brushes
+          140 entities
+           19 unique texnames
+          379 texinfo
 
 Opened WAD: C:/Users/lukea/Desktop/Quake-Multiplayer-Level/wads/START.WAD
 Opened WAD: C:/Users/lukea/Desktop/Quake-Multiplayer-Level/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          272 brushes
-          295 planes
+          310 brushes
+          384 planes
 ---- CSGFaces ----
-         1623 brushfaces
-         1846 csgfaces
-         1749 mergedfaces
+         1868 brushfaces
+         2271 csgfaces
+         2051 mergedfaces
 ---- SolidBSP ----
-         2601 split nodes
-         1054 solid leafs
-         1449 empty leafs
-           99 water leafs
+         3011 split nodes
+         1230 solid leafs
+         1682 empty leafs
+          100 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         5449 leaffaces
-         5181 nodefaces
+         6120 leaffaces
+         5775 nodefaces
 ---- Portalize ----
-         1548 vis leafs
-         1548 vis clusters
-         4138 vis portals
+         1782 vis leafs
+         1782 vis clusters
+         4862 vis portals
 ---- FillOutside ----
-          996 outleafs
+         1105 outleafs
 ---- MergeAll ----
-         1296 mergefaces
+         1546 mergefaces
 ---- SolidBSP ----
-          881 split nodes
-          507 solid leafs
-          290 empty leafs
-           85 water leafs
+         1033 split nodes
+          572 solid leafs
+          376 empty leafs
+           86 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         2520 leaffaces
-         2120 nodefaces
+         2906 leaffaces
+         2438 nodefaces
 ---- Portalize ----
-          375 vis leafs
-          375 vis clusters
-          962 vis portals
+          462 vis leafs
+          462 vis clusters
+         1281 vis portals
 ---- Tjunc ----
-         1620 world edges
-         6756 edge points
-         1920 edges added by tjunctions
+         1954 world edges
+         7890 edge points
+         2174 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
 Processing hull 2...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote Invasion.bsp
-          567 planes            11340
-         2884 vertexes          34608
-          971 nodes             23304
-          197 texinfo            7880
-         2246 faces             44920
-         5139 clipnodes         41112
-          466 leafs             13048
-         2646 marksurfaces       5292
-        10890 surfedges         43560
-         5476 edges             21904
-           17 textures         130400
+          705 planes            14100
+         3552 vertexes          42624
+         1273 nodes             30552
+          288 texinfo           11520
+         2750 faces             55000
+         2791 clipnodes         22328
+          703 leafs             19684
+         3218 marksurfaces       6436
+        13132 surfedges         52528
+         6613 edges             26452
+           20 textures         134612
               lightdata             0
               visdata               0
-              entdata            1838
+              entdata           12323
 
-0.275 seconds elapsed
-Peak memory usage: 19182164 (18.3M)
+0.380 seconds elapsed
+Peak memory usage: 20324628 (19.4M)
