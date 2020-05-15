@@ -1,9 +1,9 @@
 # Quake-Singleplayer-Map
 Temple Invasion
 
-Filename: 
+Filename: invasion
 
-Release: 
+Release: May 14th, 2020
 
 Author: Luke McPherson
 
