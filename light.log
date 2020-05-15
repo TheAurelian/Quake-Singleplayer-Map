@@ -1,0 +1,47 @@
+---- light / ericw-tools v0.18.1 ----
+Raytracing backend: Embree
+running with 8 threads
+LoadBSPFile: 'Invasion.bsp'
+BSP is version 29
+--- LoadEntities ---
+WARNING: brush entity with mins (1297.00 -3119.00 11) maxs (1359.00 -2961.00 25) (trigger_multiple) has empty key/value "message" ""
+WARNING: brush entity with mins (1345.00 -623.00 1.0) maxs (1407.00 -609.00 143) (func_door) has "target" set to itself
+WARNING: entity at (-220 -960 -116) (light_torch_small_walltorch) has empty key/value "angle" ""
+WARNING: entity at (-220 -768 -116) (light_torch_small_walltorch) has empty key/value "angle" ""
+WARNING: entity at (-36 -960 -116) (light_torch_small_walltorch) has empty key/value "angle" ""
+WARNING: entity at (-36 -768 -116) (light_torch_small_walltorch) has empty key/value "angle" ""
+WARNING: entity at (-380 -960 -116) (light_torch_small_walltorch) has empty key/value "angle" ""
+WARNING: entity at (-380 -768 -116) (light_torch_small_walltorch) has empty key/value "angle" ""
+WARNING: couldn't parse '' as number for key 'angle'
+WARNING: couldn't parse '' as number for key 'angle'
+WARNING: couldn't parse '' as number for key 'angle'
+WARNING: couldn't parse '' as number for key 'angle'
+WARNING: couldn't parse '' as number for key 'angle'
+WARNING: couldn't parse '' as number for key 'angle'
+399 entities read, 231 are lights.
+--- OptionsSummary ---
+Embree_TraceInit: Embree version: 2.15.0
+Embree_TraceInit:
+	716 sky faces
+	8600 solid faces
+	0 filtered faces
+	0 shadow-casting skip faces
+SetupLights: 231 initial lights
+SetupLights: 231 after surface lights
+SetupLights: 231 after jittering
+--- EstimateLightVisibility ---
+0....1....2....3....4....5....6....7....8....9....
+Final count: 231 lights 0 suns in use.
+--- LightWorld ---
+0....1....2....3....4....5....6....7....8....9....
+Lighting Completed.
+
+lightdatasize: 142019
+0 switchable light styles (32 max)
+Writing Invasion.bsp as BSP version 29
+0.444 seconds elapsed
+
+stats:
+1.212172 lights tested, 0.751536 hits per sample point
+0.000000 bounce lights tested, 0.000000 hits per sample point
+0 empty lightmaps
